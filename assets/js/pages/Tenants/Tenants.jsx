@@ -43,10 +43,12 @@ export default function Tenants({ tenants }) {
                         <thead className="bg-emerald-700 text-white">
                             <tr>
                                 <th>ID</th>
-                                <th>Nombre</th>
+                                <th>Nombre de Empresa</th>
                                 <th>Email</th>
                                 <th>Teléfono</th>
                                 <th>Dirección</th>
+                                <th>LegalEnca</th>
+                                <th>LegalPie</th>
                                 <th>Fecha Inicio</th>
                             </tr>
                         </thead>

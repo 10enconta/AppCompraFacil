@@ -11,7 +11,7 @@ const Modal = ({
     return (
         <div className="modal modal-open">
             <div className="modal-box">
-                <h3 className="font-bold text-lg">{title}</h3>
+                <h3 className="font-bold text-lg text-center">{title}</h3>
                 <div className="mt-4 flex flex-wrap gap-3">{children}</div>
                 <div className="modal-action  justify-center">
                     <button

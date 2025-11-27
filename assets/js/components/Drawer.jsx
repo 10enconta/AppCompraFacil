@@ -65,7 +65,8 @@ export default function Drawer({ children, toggleId = "main-drawer", user }) {
 
                     <li>
                         <a href="/empresas">
-                            <i className="fas fa-building w-5 mr-3"></i> Tenants
+                            <i className="fas fa-building w-5 mr-3"></i>{" "}
+                            Empresas
                         </a>
                     </li>
 
